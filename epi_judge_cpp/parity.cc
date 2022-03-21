@@ -1,15 +1,5 @@
 #include "test_framework/generic_test.h"
-#include <iostream>
-#include <bitset>
-
-template <typename T>
-void printInBinary(T x)
-{
-    constexpr size_t s = sizeof(T) * 8;
-
-    std::bitset<s> b1{ x };
-    std::cout << b1 << std::endl;
-}
+#include "utils/utils.h"
 
 short computParity(int num)
 {
@@ -36,6 +26,7 @@ short getParityFor16Bits(unsigned int x)
     }
     if (x >= 0 && x <= 65535)
         return kPreComputedParity[x];
+    return 0;
 }
 
 

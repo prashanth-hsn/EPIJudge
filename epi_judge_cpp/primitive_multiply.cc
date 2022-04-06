@@ -1,7 +1,21 @@
 #include "test_framework/generic_test.h"
+#include "utils/utils.h"
+
+template <typename T> T Add(T a, T b)
+{
+    return b == 0 ? a : Add(a ^ b, (a & b) << 1);
+}
+
 unsigned long long Multiply(unsigned long long x, unsigned long long y) {
-  // TODO - you fill in here.
-  return 0;
+    unsigned long long sum = 0;
+    while (x) {
+        // Examines each bit of x.
+        if (x & 1) {
+            sum = Add(sum, y);
+        }
+        x >>= 1, y <<= 1;
+    }
+    return sum;
 }
 
 int main(int argc, char* argv[]) {

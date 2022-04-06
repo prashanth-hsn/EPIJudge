@@ -72,7 +72,7 @@ problem_mapping = {
         },
         "4.05 Compute product without arithmetical operators": {
             "C++: primitive_multiply.cc": {
-                "passed": 0,
+                "passed": 10006,
                 "total": 10006
             },
             "Java: PrimitiveMultiply.java": {
@@ -86,7 +86,7 @@ problem_mapping = {
         },
         "4.06 Compute quotient without arithmetical operators": {
             "C++: primitive_divide.cc": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Java: PrimitiveDivide.java": {
@@ -100,7 +100,7 @@ problem_mapping = {
         },
         "4.07 Compute pow(x,y)": {
             "C++: power_x_y.cc": {
-                "passed": 0,
+                "passed": 10002,
                 "total": 10002
             },
             "Java: PowerXY.java": {
@@ -114,7 +114,7 @@ problem_mapping = {
         },
         "4.08 Reverse digits": {
             "C++: reverse_digits.cc": {
-                "passed": 0,
+                "passed": 19952,
                 "total": 19952
             },
             "Java: ReverseDigits.java": {

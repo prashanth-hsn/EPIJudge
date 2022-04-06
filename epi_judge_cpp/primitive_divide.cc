@@ -1,6 +1,19 @@
 #include "test_framework/generic_test.h"
 int Divide(int x, int y) {
-  // TODO - you fill in here.
+    int result = 0;
+    int power = 32;
+    using ullint = unsigned long long;
+    ullint y_power = static_cast<ullint> (y) << power;
+    while (x >= y) {
+        while (y_power > x) {
+            y_power >>= 1;
+            --power;
+        }
+
+        result += 1 << power;
+        x -= y_power;
+    }
+    return result;
   return 0;
 }
 

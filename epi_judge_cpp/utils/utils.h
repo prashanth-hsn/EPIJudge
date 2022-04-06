@@ -10,7 +10,7 @@ void printInBinary(T x)
     constexpr size_t s = sizeof(T) * 8;
 
     std::bitset<s> b1{ x };
-    std::cout << b1 << std::endl;
+    std::cout <<std::endl << b1 << std::endl;
 }
 
 

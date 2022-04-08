@@ -128,7 +128,7 @@ problem_mapping = {
         },
         "4.09 Check if a decimal integer is a palindrome": {
             "C++: is_number_palindromic.cc": {
-                "passed": 0,
+                "passed": 20000,
                 "total": 20000
             },
             "Java: IsNumberPalindromic.java": {
@@ -142,7 +142,7 @@ problem_mapping = {
         },
         "4.10 Generate uniform random numbers": {
             "C++: uniform_random_number.cc": {
-                "passed": 0,
+                "passed": 7,
                 "total": 7
             },
             "Java: UniformRandomNumber.java": {
@@ -156,7 +156,7 @@ problem_mapping = {
         },
         "4.11 Rectangle intersection": {
             "C++: rectangle_intersection.cc": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Java: RectangleIntersection.java": {
@@ -172,7 +172,7 @@ problem_mapping = {
     "Chapter 05: Arrays": {
         "5.00 Bootcamp: Arrays": {
             "C++: even_odd_array.cc": {
-                "passed": 0,
+                "passed": 1001,
                 "total": 1001
             },
             "Java: EvenOddArray.java": {

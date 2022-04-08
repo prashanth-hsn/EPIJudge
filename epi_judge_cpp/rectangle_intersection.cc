@@ -7,9 +7,23 @@ struct Rect {
   int x, y, width, height;
 };
 
+bool IsIntersectingRect(const Rect& r1, const Rect& r2){
+    if (r1.x <= r2.x + r2.width && r1.x + r1.width >= r2.x && 
+        r1.y <= r2.y + r2.height && r1.y + r1.height >= r2.y)
+        return true;
+    return false;
+}
+
 Rect IntersectRectangle(const Rect& r1, const Rect& r2) {
-  // TODO - you fill in here.
-  return {0, 0, 0, 0};
+    if (IsIntersectingRect(r1, r2)){
+        int x, y, w, h;
+        x = std::max(r1.x, r2.x);
+        y = std::max(r1.y, r2.y);
+        w = std::min(r1.x + r1.width, r2.x + r2.width) - x;
+        h = std::min(r1.y + r1.height, r2.y + r2.height) - y;
+        return { x, y, w, h };
+    }
+  return {0, 0, -1, -1};
 }
 bool operator==(const Rect& r1, const Rect& r2) {
   return std::tie(r1.x, r1.y, r1.width, r1.height) ==

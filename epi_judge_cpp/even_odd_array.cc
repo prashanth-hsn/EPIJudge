@@ -6,10 +6,18 @@
 #include "test_framework/timed_executor.h"
 using std::vector;
 
-void EvenOdd(vector<int>* A_ptr) {
-  // TODO - you fill in here.
+void EvenOdd(vector<int>* A_ptr) {  
+    size_t evenIndex = 0, oddIndex = A_ptr->size() - 1;
+    while (evenIndex < oddIndex){
+        if (A_ptr->at(evenIndex) % 2 == 0)
+            evenIndex++;
+        else{
+            std::swap(A_ptr->at(evenIndex), A_ptr->at(oddIndex--));
+        }            
+    }
   return;
 }
+
 void EvenOddWrapper(TimedExecutor& executor, vector<int> A) {
   std::multiset<int> before(begin(A), end(A));
 

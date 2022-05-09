@@ -3,7 +3,20 @@
 #include "test_framework/generic_test.h"
 using std::vector;
 void RotateMatrix(vector<vector<int>>* square_matrix_ptr) {
-  // TODO - you fill in here.
+    vector<vector<int>>& square_matrix = *square_matrix_ptr;
+    int matrix_size = size(square_matrix) - 1;
+    for (int i = 0; i < size(square_matrix) / 2; ++i) {
+        for (int j = i; j < matrix_size - i; ++j) {
+            int temp1 = square_matrix[matrix_size - j][i];
+            int temp2 = square_matrix[matrix_size - i][matrix_size - j];
+            int temp3 = square_matrix[j][matrix_size - i];
+            int temp4 = square_matrix[i][j];
+            square_matrix[i][j] = temp1;
+            square_matrix[matrix_size - j][i] = temp2;
+            square_matrix[matrix_size - i][matrix_size - j] = temp3;
+            square_matrix[j][matrix_size - i] = temp4;
+        }
+    }    
   return;
 }
 vector<vector<int>> RotateMatrixWrapper(vector<vector<int>> square_matrix) {

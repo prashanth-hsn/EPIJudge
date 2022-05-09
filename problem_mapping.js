@@ -284,7 +284,7 @@ problem_mapping = {
         },
         "5.08 Computing an alternation": {
             "C++: alternating_array.cc": {
-                "passed": 0,
+                "passed": 203,
                 "total": 203
             },
             "Java: AlternatingArray.java": {
@@ -298,7 +298,7 @@ problem_mapping = {
         },
         "5.09 Enumerate all primes to n": {
             "C++: prime_sieve.cc": {
-                "passed": 0,
+                "passed": 24,
                 "total": 24
             },
             "Java: PrimeSieve.java": {
@@ -312,7 +312,7 @@ problem_mapping = {
         },
         "5.10 Permute the elements of an array": {
             "C++: apply_permutation.cc": {
-                "passed": 0,
+                "passed": 101,
                 "total": 101
             },
             "Java: ApplyPermutation.java": {
@@ -326,7 +326,7 @@ problem_mapping = {
         },
         "5.11 Compute the next permutation": {
             "C++: next_permutation.cc": {
-                "passed": 0,
+                "passed": 2001,
                 "total": 2001
             },
             "Java: NextPermutation.java": {
@@ -340,7 +340,7 @@ problem_mapping = {
         },
         "5.12 Sample offline data": {
             "C++: offline_sampling.cc": {
-                "passed": 0,
+                "passed": 8,
                 "total": 8
             },
             "Java: OfflineSampling.java": {
@@ -354,7 +354,7 @@ problem_mapping = {
         },
         "5.13 Sample online data": {
             "C++: online_sampling.cc": {
-                "passed": 0,
+                "passed": 7,
                 "total": 7
             },
             "Java: OnlineSampling.java": {
@@ -368,7 +368,7 @@ problem_mapping = {
         },
         "5.14 Compute a random permutation": {
             "C++: random_permutation.cc": {
-                "passed": 0,
+                "passed": 6,
                 "total": 6
             },
             "Java: RandomPermutation.java": {
@@ -382,7 +382,7 @@ problem_mapping = {
         },
         "5.15 Compute a random subset": {
             "C++: random_subset.cc": {
-                "passed": 0,
+                "passed": 9,
                 "total": 9
             },
             "Java: RandomSubset.java": {
@@ -396,7 +396,7 @@ problem_mapping = {
         },
         "5.16 Generate nonuniform random numbers": {
             "C++: nonuniform_random_number.cc": {
-                "passed": 0,
+                "passed": 10,
                 "total": 10
             },
             "Java: NonuniformRandomNumber.java": {
@@ -410,7 +410,7 @@ problem_mapping = {
         },
         "5.17 The Sudoku checker problem": {
             "C++: is_valid_sudoku.cc": {
-                "passed": 0,
+                "passed": 745,
                 "total": 745
             },
             "Java: IsValidSudoku.java": {
@@ -424,7 +424,7 @@ problem_mapping = {
         },
         "5.18 Compute the spiral ordering of a 2D array": {
             "C++: spiral_ordering.cc": {
-                "passed": 0,
+                "passed": 51,
                 "total": 51
             },
             "Java: SpiralOrdering.java": {
@@ -438,7 +438,7 @@ problem_mapping = {
         },
         "5.19 Rotate a 2D array": {
             "C++: matrix_rotation.cc": {
-                "passed": 0,
+                "passed": 51,
                 "total": 51
             },
             "Java: MatrixRotation.java": {
@@ -452,7 +452,7 @@ problem_mapping = {
         },
         "5.20 Compute rows in Pascal's Triangle": {
             "C++: pascal_triangle.cc": {
-                "passed": 0,
+                "passed": 35,
                 "total": 35
             },
             "Java: PascalTriangle.java": {
@@ -468,7 +468,7 @@ problem_mapping = {
     "Chapter 06: Strings": {
         "6.00 Bootcamp: Strings": {
             "C++: is_string_palindromic.cc": {
-                "passed": 0,
+                "passed": 10000,
                 "total": 10000
             },
             "Java: IsStringPalindromic.java": {
@@ -482,7 +482,7 @@ problem_mapping = {
         },
         "6.01 Interconvert strings and integers": {
             "C++: string_integer_interconversion.cc": {
-                "passed": 0,
+                "passed": 15001,
                 "total": 15002
             },
             "Java: StringIntegerInterconversion.java": {

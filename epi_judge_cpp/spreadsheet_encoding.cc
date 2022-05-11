@@ -1,10 +1,11 @@
 #include <string>
+#include <numeric>
 
 #include "test_framework/generic_test.h"
 using std::string;
 
 int SSDecodeColID(const string& col) {
-  // TODO - you fill in here.
+    return std::accumulate(col.begin(), col.end(), 0, [] (int running_sum, char ch) { return running_sum * 26 + ch - 'A' + 1; });
   return 0;
 }
 
